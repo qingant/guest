@@ -9,7 +9,7 @@ setup(
     description='Guest bbs: modern modular telnet bbs',
     author='matao.xjtu@gmail.com',
     packages=find_packages('.'),
-    install_requires=['eventlet'],
+    install_requires=['eventlet', 'mongoengine'],
     entry_points='''
     [console_scripts]
     guest=guest.app:main
