@@ -1,0 +1,14 @@
+*.zip
+*.swp
+*.pyc
+
+config/config.py
+.installed.cfg
+
+*.egg-info/
+bin/
+.buildout/
+.idea/
+.DS_Store
+
+*.profile
